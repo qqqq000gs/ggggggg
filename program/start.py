@@ -58,7 +58,8 @@ async def start_(client: Client, message: Message):
 ᥀︙ **لمعرفة اوامر هذا البوت اضغط على » الاوامر الاساسية!**
 
 ᥀︙ **لمعرفة طريقة تشغيل هذا البوت اضغط على » طريقة التشغيل!**
-""",
+""", ᥀︙@N_J_9تطوير هذا البوت من قبل 
+      
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -74,7 +75,7 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "‹قناة السورس›", url=f"https://t.me/EITHON1"
+                        "‹ قناة السورس ›" ، url = f "https://t.me/X_8_00"
                     ),
                     InlineKeyboardButton(
                         "‹قناة البوت›", url=f"https://t.me/{UPDATES_CHANNEL}"
@@ -82,8 +83,8 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "‹لتنصيب بوت مماثل›", url="https://t.me/TTTLL0"
-                    )
+                        "‹ لتنصيب بوت ›" ، url = "https://t.me/N_J_9"
+                    )    "‹بوت زخرفة›",  url="https://t.me/t_T_HBot"
                 ],
             ]
         ),
@@ -102,9 +103,9 @@ async def alive(client: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("اوامر التشغيل", url=f"https://t.me/EITHON1"),
+                InlineKeyboardButton("اوامر التشغيل", url=f"https://t.me/X_8_00"),
                 InlineKeyboardButton(
-                    "مطور السورس", url=f"https://t.me/TTTLL0"
+                    "مطور السورس", url=f"https://t.me/N_J_9"
                 ),
             ]
         ]
@@ -129,9 +130,9 @@ async def src(client: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("اوامر التشغيل", url=f"https://t.me/EITHON1"),
+                InlineKeyboardButton("اوامر التشغيل", url=f"https://t.me/X_8_00"),
                 InlineKeyboardButton(
-                    "مطور السورس", url=f"https://t.me/TTTLL0"
+                    "مطور السورس", url=f"https://t.me/N_J_9"
                 ),
             ]
         ]
