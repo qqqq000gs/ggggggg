@@ -58,8 +58,7 @@ async def start_(client: Client, message: Message):
 ᥀︙ **لمعرفة اوامر هذا البوت اضغط على » الاوامر الاساسية!**
 
 ᥀︙ **لمعرفة طريقة تشغيل هذا البوت اضغط على » طريقة التشغيل!**
-""", ᥀︙@N_J_9تطوير هذا البوت من قبل 
-      
+
         reply_markup=InlineKeyboardMarkup(
             [
                 [
