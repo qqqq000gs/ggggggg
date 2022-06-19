@@ -162,7 +162,7 @@ async def play(c: Client, m: Message):
                         "»قِمَ بِأّلَڒٍدِ عٌ  مَلَفِّ صٌوِتّيِّ  أوِ  أګتّبِ شٍيِّئًأّ لَلَبِحٌثّ**"
                     )
                 else:
-                    suhu = await c.send_message(chat_id, "🔍**جِأّڒٍيِّ أّلَبِحٌثّ...**")
+                    suhu = await c.send_message(chat_id, "🔍**آصّبر عمري کْآعٌدٍ يَبًحًثً..**")
                     query = m.text.split(None, 1)[1]
                     search = ytsearch(query)
                     if search == 0:
